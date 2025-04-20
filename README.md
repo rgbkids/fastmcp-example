@@ -37,3 +37,12 @@ Example configuration:
 ```
 
 Replace `{Path}` with the appropriate paths on your system to ensure proper functionality.
+
+### Cursor
+
+`.cursor/mcp.json`
+
+### Roo Code
+
+`.roo/mcp.json`
+
