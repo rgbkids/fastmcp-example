@@ -19,7 +19,7 @@ server.addTool({
   async execute(args) {
     return {
       content: [
-        { type: "text", text: `${args.text} - example` }
+        { type: "text", text: myMCPServer(args.text) }
       ]
     };
   },
@@ -29,3 +29,8 @@ server.addTool({
 await server.start({
   transportType: "stdio",
 });
+
+// 独自の関数
+function myMCPServer(text: string) {
+  return `${text} - example`
+}
