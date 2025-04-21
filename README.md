@@ -46,3 +46,6 @@ Replace `{Path}` with the appropriate paths on your system to ensure proper func
 
 `.roo/mcp.json`
 
+### Copilot Agent
+
+VSCode 👉 Settings 👉 Search `MCP` 👉 settings.json 👉 Start
