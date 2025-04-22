@@ -38,9 +38,9 @@ Example configuration:
 
 Replace `{Path}` with the appropriate paths on your system to ensure proper functionality.
 
-### Cursor
+### Cline
 
-`.cursor/mcp.json`
+VSCode 👉 Cline 👉 MCP Servers 👉 Installed 👉 Configure 👉 cline_mcp_settings.json 👉 Restart
 
 ### Roo Code
 
@@ -49,3 +49,7 @@ Replace `{Path}` with the appropriate paths on your system to ensure proper func
 ### Copilot Agent
 
 VSCode 👉 Settings 👉 Search `MCP` 👉 settings.json 👉 Start
+
+### Cursor
+
+`.cursor/mcp.json`
