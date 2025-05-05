@@ -1,18 +1,14 @@
-// MCPサーバー (ClaudeDesktop対応) - FastMCP + stdio
-
 import { FastMCP } from "fastmcp";
 import { z } from "zod";
 
-// サーバーのインスタンス作成
 const server = new FastMCP({
-  name: "ClaudeDesktop Echo Server",
+  name: "My MCP Server",
   version: "1.0.0",
 });
 
-// "echo"ツールを追加
 server.addTool({
-  name: "echo",
-  description: "入力されたテキストをそのまま返します",
+  name: "myMCPServer",
+  description: "Returns the input text as-is",
   parameters: z.object({
     text: z.string(),
   }),
@@ -25,12 +21,10 @@ server.addTool({
   },
 });
 
-// stdioトランスポートでサーバー起動 (ClaudeDesktop用)
 await server.start({
   transportType: "stdio",
 });
 
-// 独自の関数
 function myMCPServer(text: string) {
-  return `${text} - example`
+  return `${text} by myMCPServer`
 }
