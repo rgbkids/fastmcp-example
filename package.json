@@ -1,5 +1,5 @@
 {
-  "name": "fastmcp",
+  "name": "fastmcp-example",
   "version": "1.0.0",
   "main": "dist/FastMCP.js",
   "scripts": {
@@ -15,7 +15,6 @@
     "SSE"
   ],
   "type": "module",
-  "author": "Frank Fiegel <frank@glama.ai>",
   "license": "MIT",
   "description": "A TypeScript framework for building MCP servers.",
   "module": "dist/FastMCP.js",
@@ -37,7 +36,7 @@
     "zod-to-json-schema": "^3.24.5"
   },
   "repository": {
-    "url": "https://github.com/punkpeye/fastmcp"
+    "url": "https://github.com/rgbkids/fastmcp-example"
   },
   "homepage": "https://glama.ai/mcp",
   "release": {
